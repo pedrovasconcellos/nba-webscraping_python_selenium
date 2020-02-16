@@ -16,7 +16,7 @@ url = "https://stats.nba.com/players/traditional/?PerMode=Totals&Season=2019-20&
 driver = webdriver.Chrome()
 print("Browser Invoked")
 driver.get(url)
-time.sleep(5)
+driver.implicitly_wait(10)
 
 commandFind = "//div[@class='nba-stat-table']//table//thead//tr//th[@data-field='PTS']"
 driver.find_element_by_xpath(commandFind).click()
@@ -42,9 +42,9 @@ top10ranking = {}
 top10ranking['points'] = df.to_dict('records')
 
 # 5 - [Dump] Convert data and save to json
-json = json.dumps(top10ranking)
+json = json.dumps(top10ranking, indent=4)
 file_name = 'ranking-top-10-' + str(datetime.now().date()) + '.json'
-fp = open(file_name, 'w')
+fp = open(file_name, 'w', encoding='utf-8')
 fp.write(json)
 fp.close()
 
