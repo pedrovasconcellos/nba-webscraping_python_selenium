@@ -1,0 +1,64 @@
+{
+    "points": [
+        {
+            "ranking": 1,
+            "player": "James Harden",
+            "team": "HOU",
+            "total": 1800
+        },
+        {
+            "ranking": 2,
+            "player": "Damian Lillard",
+            "team": "POR",
+            "total": 1594
+        },
+        {
+            "ranking": 3,
+            "player": "Trae Young",
+            "team": "ATL",
+            "total": 1483
+        },
+        {
+            "ranking": 4,
+            "player": "Giannis Antetokounmpo",
+            "team": "MIL",
+            "total": 1438
+        },
+        {
+            "ranking": 5,
+            "player": "Zach LaVine",
+            "team": "CHI",
+            "total": 1392
+        },
+        {
+            "ranking": 6,
+            "player": "Devin Booker",
+            "team": "PHX",
+            "total": 1374
+        },
+        {
+            "ranking": 7,
+            "player": "Bradley Beal",
+            "team": "WAS",
+            "total": 1340
+        },
+        {
+            "ranking": 8,
+            "player": "Donovan Mitchell",
+            "team": "UTA",
+            "total": 1288
+        },
+        {
+            "ranking": 9,
+            "player": "LeBron James",
+            "team": "LAL",
+            "total": 1274
+        },
+        {
+            "ranking": 10,
+            "player": "Luka Doncic",
+            "team": "DAL",
+            "total": 1271
+        }
+    ]
+}
